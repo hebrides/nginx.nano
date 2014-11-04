@@ -1,11 +1,11 @@
 nginx.nano
 ==========
 
-Vim has [syntax higlighting for ngnix config files](https://github.com/vim-scripts/nginx.vim). I wanted something similar for nano. There are already a few good scripts (e.g.: https://github.com/nanorc/nanorc and https://github.com/serialhex/nano-highlight) that highlight various syntaxes for nano. This contribution works well for my needs for nginx. 
+Vim has [syntax higlighting for ngnix config files](https://github.com/vim-scripts/nginx.vim). I wanted something similar for nano. There are already a few good scripts (e.g.: https://github.com/nanorc/nanorc and https://github.com/serialhex/nano-highlight) that highlight various syntaxes, including nginx. This contribution works well for my needs. 
 
-Note: It doesn't highlight all files in the nginx directory with a syntax, so there is a hack to make this work using top level domain extensions.
+Note: This normally wouldn't highlight config files in the nginx/sites-available directory, so there is a hack to make it work using top level domain extensions.
 
-![Screen Shot](/img/image.jpg)
+![Screen Shot](/img/image.png)
 
 ```
 ## Ngnix - The extensions default .com, etc. are useful for editing sites-available/example.tld config files, but of course are a hack.
