@@ -9,7 +9,7 @@ Note: This normally wouldn't highlight config files in the nginx/sites-available
 
 ```
 ## Ngnix - The extensions default .com, etc. are useful for editing sites-available/example.tld config files, but of course are a hack.
-syntax "nginx" "nginx\.conf$" "\.nginx$" "default" "\.com$" "\.net$" "\.co$" "\.org$" 
+syntax "nginx" "nginx\.conf$" "\.nginx$" "default" "\.com$" "\.net$" "\.co$" "\.org$" "/etc/nginx/sites-available/*" "/etc/nginx/sites-enabled/"
 ## Default
 color white "^.+$"
 ## Nginx Directives as of 2014
